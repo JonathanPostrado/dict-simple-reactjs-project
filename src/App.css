@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +20,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: #040D21;;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +42,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  border-collapse: separate;
+  width: 100%; 
+}
+.pokemons-table{
+  width: 50%;
+}
+.pokemons-info-table{
+  width: 100%;
+  border: 1px solid #282c34;
+}
+.pokemons-table-td{
+  border: 1px solid #282c34;
+  color: #282c34
+}
+.pokemons-table-th{
+  border: 1px solid black;
+  color:
+}
+.nav-td, .nav-th{
+  border: 1px solid white;
+}
+td,th {
+  border: 1px solid white;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+.custom-td{
+  text-align: center;
+}
+
+.icon{
+  margin: 5px;
+}
+
+.btn{
+  width: 100%;
+  margin-top: 5px;
+}
+input[type=text]:not(.browser-default),input[type=number]:not(.browser-default), input[type=date]:not(.browser-default) {
+  color: white;
+}
+.img-card{
+  width: 100px;
+  height: 500px;
+  background-size: auto;
+  background-repeat: ;
+}
+
+.header-font-black{
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+.header-font-red{
+  color: red;
+  padding: 0;
+  margin: 0;
+}
+.font-content{
+  color: blue;
+}
+
+.total{
+  align-items: center;
+  justify-content: center;
 }
